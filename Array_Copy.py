@@ -1,0 +1,21 @@
+import numpy as np
+a= np.arange(1,7).reshape(2,3)
+b = a
+print("Reference variable")
+print(a)
+print(b)
+print(b is a)
+print(a is b)
+print("Shallow copy")
+c = a.view()
+print(a)
+print(c)
+print("Deep Copy")
+d = a.copy()
+print(a)
+print(d)
+print(a is d)
+print(d is a)
+d[0][1] = 256
+print(a)
+print(d)
