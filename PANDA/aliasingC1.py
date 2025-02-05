@@ -1,3 +1,4 @@
+from ast import Str
 import pandas as pd
 import numpy as np
 # data = np.array(['a' , 'b' , 'c' , 'd'])
@@ -20,3 +21,7 @@ print(s1)
 data2 = np.arange(5)
 s2 = pd.Series(data2,index=['a' , 'b' , 'c' ,'d' ,'e'])
 print(s2)
+
+a = pd.Series(data2,index=['a','b','c','d','e'])
+print(a)
+print(type(a))
