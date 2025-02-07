@@ -1,9 +1,11 @@
 from ast import Str
+# from subprocess import ABOVE_NORMAL_PRIORITY_CLASS
+from matplotlib.legend_handler import HandlerErrorbar
 import pandas as pd
 import numpy as np
-# data = np.array(['a' , 'b' , 'c' , 'd'])
-# s = pd.Series(data,index=[100,111,112,113])
-# print(s)
+data = np.array(['a' , 'b' , 'c' , 'd'])
+s = pd.Series(data,index=[100,111,112,113])
+print(s)
 
 
 ###### import the pandas libraby and aliasing as pd
@@ -25,3 +27,9 @@ print(s2)
 a = pd.Series(data2,index=['a','b','c','d','e'])
 print(a)
 print(type(a))
+
+
+
+# data clening
+# Handling data
+# per person data Analysis
