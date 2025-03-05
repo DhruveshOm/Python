@@ -15,7 +15,6 @@ c = {
 }
 print(pd.DataFrame(c,index=['a','b','c']))
 
-
 # print(d.loc['a.'])
 # print(d.iloc[1])
 # d = pd.DataFrame([[1,20,'Adi'],[2,34,'parth'],[3,60,'rounak'],[4,70,'dhruv']],columns=['Roll no.', 'MARKS','name'],index=['a.','b.','c.','d.'])
